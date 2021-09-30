@@ -8,7 +8,7 @@ const generateTemplate = todo =>{
 
     const html =`
      <li class="list-group-item d-flex justify-content-between align-items-center">
-    <span>${todo}<i class="fas fa-edit edit"></i>
+    <span>${todo}</i>
     </span>
     <i class="far fa-trash-alt delete"></i>
      </li>
